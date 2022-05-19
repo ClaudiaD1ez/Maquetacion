@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(181, 176, 176, 0.32);
+
+}
+
+.header{
+    padding: 30px;
+    border: 2px solid rgb(198, 136, 183);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.128);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color:rgb(154, 72, 133); ;
+}
+
+.navegacion2{
+    list-style: none;
+    margin-right:280px;
+    margin-left: 280px;
+}
+
+nav ul li {
+    float: left;
+    border: 1px solid rgb(154, 72, 133);
+    padding: 3px;
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+h2{
+    margin-bottom: 20px;
+}

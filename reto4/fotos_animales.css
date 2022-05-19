@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 20px;
+    height: 80%;
+}
+
+.foto{
+    max-width: 250px;
+    max-height: 250px; 
+}
+
+.botones{
+    height: 20%;
+    margin-right:280px;
+    margin-left: 280px;
+}
+
+nav ul li {
+    float: left;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 15px;
+    padding: 10px;
+    list-style: none;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
