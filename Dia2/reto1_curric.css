@@ -1,0 +1,87 @@
+.padre{
+    margin-left: 20%;
+    margin-right: 20%;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.principal{
+    display:flex;
+    flex-direction: column;
+    width: 93%;
+}
+
+.aside{
+    background-color: rgb(214, 112, 112);
+    padding: 2px;
+    width: 7%;
+    border-radius: 7px 0px 0px 7px;
+    
+}
+
+.texto{
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    color:rgb(225, 222, 222);
+}
+
+
+.cabecera{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.cabecera_foto{
+    width: 50%;
+    padding-top: 2%;
+    padding-left:10% ;
+}
+
+.foto{
+    max-width: 200px;
+    max-height: 200px; 
+    border-radius: 50%;
+}
+
+.cabecera_datos{
+    width: 50%;
+    justify-content: space-between;
+    padding-left: 5%;
+    background-color: rgb(241, 239, 239);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experiencia{
+    padding: 5%;
+    background-color: rgba(214, 112, 112, 0.178);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.datos_acad{
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.abajo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills{
+    width: 50%;
+    padding: 5%;
+    background-color: rgb(241, 239, 239);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descripcion{
+    width: 50%;
+    padding: 5%;
+    background-color: rgba(214, 112, 112, 0.148);
+    font-family: Arial, Helvetica, sans-serif;
+}

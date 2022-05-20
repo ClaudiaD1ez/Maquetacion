@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ul li {
+    float: left;
+    padding: 3px;
+    margin: 15px;
+    padding: 20px;
+    list-style: none;
+}
+
+h2{
+    font-size:xx-large;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li:hover{
+    transform: scale(0.9);
+    transition: transform .2s ;
+    text-decoration: none;
+}
+
+.cabecera{
+    display: flex;
+    flex-direction:row;
+    /* border: 5px solid blue; */
+}
+
+.logo{
+    display: flex;
+    flex-direction:row;
+    width: 70%;
+}
+
+.foto{
+    max-width: 270px;
+    max-height: 100px;
+}
+
+.nav{
+    display: flex;
+    flex-direction:row;
+    height: 10vh;
+}
+
+.cuerpo{
+    background-image: url("gradienta-bKESVqfxass-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction:row;
+    align-items: baseline;
+    height: 90vh;
+
+}
+
+.nosotros{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    padding:5% ;
+}
+
+.alumnos{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    padding:5% ;
+}
+
+.footer{
+    background-color: black;
+    padding: 1%;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.icono{
+    max-width: 25px;
+    max-height: 25px;
+    margin-right: 8px;
+}
+.rrss{
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}

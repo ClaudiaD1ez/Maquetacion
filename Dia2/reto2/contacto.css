@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ul li {
+    float: left;
+    padding: 3px;
+    margin: 15px;
+    padding: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li:hover{
+    text-decoration: none;
+    transform: scale(0.9);
+    transition: transform .2s ;
+
+}
+
+.cabecera{
+    display: flex;
+    flex-direction:row;
+    /* border: 5px solid blue; */
+}
+
+.logo{
+    display: flex;
+    flex-direction:row;
+    width: 70%;
+}
+
+.foto{
+    max-width: 270px;
+    max-height: 100px;
+}
+.nav{
+    display: flex;
+    flex-direction:row;
+    height: 10vh;
+}
+.main{
+    background-color: blue;
+    padding-left: 10%;
+    padding-bottom: 10px;
+}
+
+.mainText{
+    background-color: blue; 
+    color: white;
+    font-size: x-large; 
+}
+.formComplet{
+    display: flex;
+    flex-direction:row;
+    background-color: blue;
+}
+
+.form{
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+}
+
+.formTitle{
+    color: white;
+    margin: 2%;
+}
+
+.input{
+    color: white;
+    display: flex;
+    flex-direction:column;
+}
+
+input{
+  color: white;
+  width:380px;
+  height:27px;
+  border:2px solid #f6f6f6;
+  padding:10px;
+  margin-top:5px;
+  font-size:10px
+}
+
+.boton{
+    color: white;
+    background-color: rgb(2, 2, 93);
+    padding: 3%;
+}
+
+.boton:hover{
+    transform: scale(0.9);
+    transition: transform .2s ;
+}
+
+.logoDos{
+    width: 40%;
+}
+.fotoLogo{
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+
+
+.footer{
+    background-color: black;
+    padding: 1%;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.icono{
+    max-width: 25px;
+    max-height: 25px;
+    margin-right: 8px;
+}
+.rrss{
+    text-decoration: none;
+    color: white;
+}
+/* .icono{
+    display: flex;
+    flex-direction: row;
+}
+*/
