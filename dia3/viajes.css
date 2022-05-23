@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Poppins:wght@100&display=swap');
+
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.cabecera{
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.cabecera_centro{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    margin-left: 10%;
+}
+.fotoLogoCab{
+    max-width: 150px;
+    max-height: 180px;
+}
+.formComplet{
+    display: flex;
+    flex-direction:row;
+
+}
+.foto5{
+    max-width: 500px;
+    max-height: 280px;
+    margin-left: 120px;
+    margin-top: 8px;
+}
+.nav{
+    display: block;
+    float: left;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 30px;
+}
+.logo{
+    width: 10%;
+
+}
+ul li {
+    float: left;
+    padding: 3px;
+    margin: 15px;
+    padding: 20px;
+    list-style: none;
+}
+.foto{
+    max-width: 220px;
+    max-height: 160px;
+
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+/* DESCRIPCION EMPRESA*/
+
+.descripcion{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: url(./222navi-Pg4spGCmxwE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+
+}
+
+/* CAJAS DE OFERTAS */
+.lugares{
+    /* border: 2px solid rgb(255, 0, 21); */
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjeta{
+    border: 2px solid rgb(142, 139, 139);
+    border-radius: 4px;
+    margin: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.274);
+    
+}
+.tituloTarjetas{
+    text-align: center;
+    margin-top: 25px;
+    border-top: 2px solid #7bdcb5eb;
+    color:#65b394eb
+}
+
+.fotoCiudad{
+    max-width: 280px ;
+    max-height: 150px ;
+
+}
+.fotoEstrellas{
+    max-width: 100px ;
+    max-height: 100px ;
+    padding: 30%;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.desc{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.abajo{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.oferta{
+    width: 70%;
+}
+
+.precio{
+    color: rgb(38, 181, 38);
+    font-size:larger;
+    font-weight: bold;
+    width: 30%;
+}
+
+
+
+/*NUESTROS DESTINOS */
+
+.Titulo2{
+  text-align: center;
+  font-size: x-large;
+  color: fuchsia;
+}
+.destinos{
+    background-color: #7bdcb5eb;
+    color: white;
+    margin: auto;
+    padding-left: 3% ;
+    padding-right: 3% ;
+    padding-top: 1%;
+    padding-bottom:1% ;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+/* FORMULARIO */ 
+.formComplet{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.form{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    background-color: rgba(220, 219, 219, 0.457);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.274);
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formTitle{
+    margin: 2%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid #ef4444; */
+    margin-top:5px;
+    font-size:10px;
+    padding: 10%;
+}
+.parInputs{
+    display: flex;
+    flex-direction: column;
+}
+.caja{
+    width: 150px;
+    height: 30px;
+}
+
+.botones{
+    width: 15px;
+    display: flex;
+    flex-direction:row;
+    
+}
+.button{
+    /* margin-right: 25px;
+    margin-left: 25px; */
+    margin-right: 10px;
+}
+
+/* IMPRIMIR */
+
+.imprimir{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  
+}
+
+.divImpFoto{
+    width: 50%;
+    padding-left: 5%;
+}
+.fotoImprimir{
+    max-width: 700px;
+    max-height: 300px;
+   /* border: 2px solid red; */
+}
+.datosImp{
+  width: 50%;
+  border: 2px solid rgba(128, 128, 128, 0.413);
+  padding-left: 5%;
+  padding-right: 5%;
+} 
+
+/* FOOTER */
+
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.fotoFooter{
+    margin-top: 10px;
+    max-width: 200px;
+    max-height: 100px;
+}
