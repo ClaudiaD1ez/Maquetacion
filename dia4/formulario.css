@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --color:rgb(245, 161, 6);
+    --background: rgba(255, 166, 0, 0.151);
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.fotoNombre{
+    max-width: 300px;
+}
+.logo{
+    width: 50%;
+    padding: 1%;
+}
+
+.nav a{
+    text-decoration: none ;
+    color: black;
+    padding: 25px;
+    font-size: larger;
+}
+.nav{
+    width: 50%;
+    text-align: right;
+    margin-top: 30px;
+}
+.nav a:hover{
+    color: orange;
+    /* font-size: x-large; */
+    border-bottom: 2px solid black;
+}
+
+.nav a:active{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+           /* MAIN */
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+}           
+.mainGrande{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 370px;
+}
+h2{
+    text-align: center;
+    color: var(--color);
+}
+.form{
+    width: 30%;
+    height: 85%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    border: 2px solid orange;
+    background-color:rgba(245, 161, 6, 0.139) ;
+}
+
+.formIndividual{
+    display: flex;
+    flex-direction: column;
+}
+.boton{
+    margin-top: 15px;
+    padding: 5px;
+}
+.fotoGrande{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fotoLado{
+    border: 2px solid orange;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+
+footer  p{
+    padding-left: 40px;
+    padding-right: 40px;
+    color:var(--color)
+}
