@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+:root{
+    --color:rgb(245, 161, 6);
+    --background: rgba(255, 166, 0, 0.151);
+
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+}
+
+   /* CABECERA */
+
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.fotoNombre{
+    max-width: 300px;
+}
+.logo{
+    width: 50%;
+    padding: 1%;
+}
+
+.nav a{
+    color: black;
+    padding: 30px;
+    font-size: larger;
+}
+.nav{
+    width: 50%;
+    text-align: right;
+    margin-top: 30px;
+}
+.nav a:hover{
+    color: orange;
+    /* font-size: x-large; */
+    border-bottom: 2px solid black;
+}
+
+.nav a:active{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+    /* CUERPO */
+
+.main{
+    display: flex;
+    flex-direction:row;
+    /* height: 100vh; */
+}
+.sobreMI{
+    width: 25%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: var( --background);
+    text-decoration: none;
+    color: black;
+}
+p{
+    padding-top: 9%;
+    text-decoration: none;
+}
+.fotoCentral{
+    width: 40%;
+    text-align: center;
+    padding-top: 3%;
+}
+.foto{
+    max-width: 400px;
+    border-radius: 48%;
+}
+.derecha{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin-right: 2%;
+    color: black;
+}
+h4{
+    color: var(--color);
+    text-align: center;
+}
+.infoCont{
+    margin-top: 5%;
+}
+.infoCont p::first-letter{
+    color: var(--color);
+}
