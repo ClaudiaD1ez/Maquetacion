@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid #ff0000; */
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 80%;
+    padding: 1%;
+    /* border: 2px solid #0026ff; */
+
+}
+.foto{
+    /* border: 2px solid #d4ff00; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    padding: 1%;
+}
+.fotoM{
+    max-height: 100%;
+    max-width: 100%;
+    /* border: 2px solid goldenrod; */
+}
+.form{
+    padding: 1%;
+    width: 50%;
+    height: 100%; 
+    /* border: 2px solid #ff00d9; */
+    display: flex;
+    align-items:center;
+    justify-content:left;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content:center;
+    /* border: 2px solid #1900ff; */
+    width: 260px;
+    height: 380px;
+}
+.formMain{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:center;
+    border: 1px solid rgba(128, 128, 128, 0.566);
+    height: 70%;
+    margin-bottom: 2%;
+    padding-left:8%;
+    padding-right:8%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 1%;
+}
+input{
+    margin: 1%;
+    padding: 1%;
+}
+button{
+    padding: 1%;
+    margin: 1%;
+    background-color: rgba(76, 168, 255, 0.381);
+    color: aliceblue;
+    border:1px solid rgba(76, 168, 255, 0.381);
+    border-radius: 5%;
+}
+
+.formCuenta{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(128, 128, 128, 0.566);
+    height: 15%;
+    align-items: center;
+    justify-content:center;
+}
+.divFace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Face{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.fotoFace{
+     width: 6%;
+}
+.P_Grande{
+    font-size: smaller;
+}
+.P_Pequeño{
+    font-size: x-small;
+}
+.formCuenta p,a{
+    font-size: smaller;
+}
+.app{
+    /* border: 1px solid gray; */
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.app p{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size:smaller;
+}
+.fotoApp{
+    align-items: center;
+    justify-content:center;
+    max-width: 90px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(153, 151, 151);
+    font-size: x-small;
+    width: 100%;
+    height: 20%;
+    /* border: 2px solid #159a1e; */
+}
+.footer p{
+    padding: 4px;
+}
+
+@media screen and (max-width:776px) {
+    .foto{
+       display: none; 
+    }
+}

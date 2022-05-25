@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 63px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    height: 62px;
+    background-color: white;
+    /* border: 2px solid rgb(13, 0, 255); */
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.instaLogo img{
+    width: 23%;
+    height: 70%;
+    /* border: 2px solid red; */
+}
+.instaLogo{
+    /* border: 2px solid rgb(17, 255, 0); */
+    display: flex;
+    width: 38%;
+    align-items: center;
+    justify-content: center;
+}
+.botones{
+    /* border: 2px solid rgb(255, 0, 238); */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.botones2{
+    margin: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+.buscar{
+    padding: 1%;
+    border-radius: 5%;
+    background-color: rgba(128, 128, 128, 0.205);
+    border: none;
+    width: 40%;
+}
+.entrar{
+    padding: 7%;
+    border-radius: 8%;
+    background-color: rgb(56, 112, 234);
+    color: white;
+    border: none;
+}
+.registrarse{
+    padding: 7%;
+    border-radius: 8%;
+    color: blue;
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+.cabecera{
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: row;
+}
+.cabImag{
+    width: 38%;
+    /* border: 2px solid rgb(255, 221, 0); */
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items:baseline;
+    padding: 1%;
+}
+.cabImag img{
+    width: 40%;
+}
+.principal{
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 62%;
+    padding: 1%;
+}
+.gris{
+    color: grey;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    gap: 3%;
+}
+.seguir{
+    padding: 1%;
+    border-radius: 8%;
+    background-color: rgb(56, 112, 234);
+    color: white;
+    border: none;
+}
+.seguidores{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    gap: 3%;
+}
+.seguidores p{
+    margin-right: 8%;
+    margin: 1%;
+}
+.P p{
+    font-size:smaller;
+    margin: 4px;
+}
+.datos{
+    display: flex;
+    flex-direction: row;
+}
+.datos p {
+    font-size:smaller
+}
+.azul{
+    color: rgb(2, 2, 174);
+}
+.iconos1{
+    width: 20px;
+    height: 20px;
+}
+
+.destacadas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid purple; */
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+}
+.destacImag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.destacImag img{
+    width:60%;
+    height: 70%;
+}
+.destacImag p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:smaller;
+}
+.ventanas{
+    /* border: 2px solid rgb(137, 255, 90); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    padding-left: 20%;
+    padding-right: 25%;
+}
+.ventanaConcret{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 10%;
+    /* border: 2px solid rgb(0, 255, 0); */
+
+}
+.ventanaConcret p{
+    color: grey;
+    font-size: x-small;
+}
+
+.fotosImportantes{
+    /* border: 2px solid blue; */
+    margin-left: 12%;
+    margin-right: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 6px;
+}
+.fotos1{
+    display: flex;
+    gap: 1%;
+}
+.fotos2{
+    display: flex;
+    gap: 1%;
+}
+.fotos1 img{
+    width: 33%;
+}
+.fotos2 img{
+    width: 33%;
+}
