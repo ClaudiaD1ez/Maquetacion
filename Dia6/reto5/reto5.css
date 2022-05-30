@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.315);
+    display: grid;
+    grid-template-areas: "header header header header header"
+                          "aside1 main1 main2 main3 aside4"
+                          "aside2 main4 main5 main6 aside5"
+                          "aside3 main7 main8 main9 aside6"
+                          "footer1 footer2 footer3 footer4 footer5"
+}
+
+.header{
+    width: 100%;
+    grid-area: header;
+    border:2px solid blue;
+    display: grid;
+    grid-template-rows: [y0]1fr [y1]1fr;
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr [x4]1fr;
+}
+.reset1{
+    grid-column: x1/x2 ;
+    grid-row: y0/y2;
+    width: 60%;
+    height: 60%;
+    margin-top: 6%;
+    /* border: 2px solid yellow; */
+}
+.reset2{
+    grid-column: x3/x4 ;
+    grid-row: y0/y2;
+    width: 60%;
+    height: 60%;
+    margin-top: 6%;
+    /* border: 2px solid yellow; */
+}
+
+.main1{
+    grid-area: main1;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.473)
+}
+.main2{
+    grid-area: main2;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.473)
+}
+.main3{
+    grid-area: main3;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.473)
+}
+.main4{
+    grid-area: main4;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.473)
+}
+.main5{
+    grid-area: main5;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.473)
+}
+.main6{
+    grid-area: main6;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.473)
+
+}
+.main7{
+    grid-area: main7;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.473)
+
+}
+.main8{
+    grid-area: main8;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.473)
+
+}
+.main9{
+    grid-area: main9;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.473)
+
+}
+.aside1{
+    grid-area: aside1;
+    text-align: center;
+    /* font-size: x-large; */
+    border:2px solid rgb(255, 0, 183)
+}
+.aside2{
+    grid-area: aside2;
+    text-align: center;
+    border:2px solid rgb(64, 255, 0)
+}
+.aside4{
+    grid-area: aside4;
+    text-align: center;
+    border:2px solid rgb(255, 0, 183)
+}
+.aside5{
+    grid-area: aside5;
+    text-align: center;
+    border:2px solid rgb(64, 255, 0)
+}
+.main{
+    grid-area: main;
+    border:2px solid rgb(255, 230, 0)
+}
+.footer3{
+    grid-area: footer3;
+    text-align: center;
+    border:2px solid red;
+
+}
